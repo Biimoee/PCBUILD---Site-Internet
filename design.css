@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@500&display=swap');
+* {
+  font-family: 'Encode Sans', sans-serif;
+}
 body {
     padding: 0;
     margin: 0;
@@ -12,7 +16,7 @@ header {
 }
 
 /*Menu Accueil*/
-ul {
+.menu-accueil {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -43,7 +47,45 @@ li a {
 #sinscrire {
     background-color: black;
 }
+#sinscrire:hover, #seconnecter:hover {
+  background-color: white;
+  color: black;
+  -webkit-transition: all 200ms linear;
+}
+.underline-animation {
+  display: inline-block;
+  position: relative;
+  color:white;
+  padding-bottom: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
 
-li a:hover {
-    background-color: green;
-  }
+.underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/*Menu Principal*/
+#home-title {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 60px;
+  padding-left: 35px;
+  padding-top: 70px;
+  width: 600px;
+}
