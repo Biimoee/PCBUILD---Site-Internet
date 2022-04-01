@@ -73,8 +73,11 @@ li a {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-  /*Version Mobile*/
+  /* MENU - Version Mobile*/
   @media screen and (max-width: 980px){
+    body {
+      margin, padding: 0;
+    }
     a {
       text-decoration: none;
       color: #1E1E23;
@@ -225,6 +228,19 @@ li a {
   padding-left: 35px;
   padding-top: 70px;
   width: 600px;
+}
+@media screen and (max-width: 980px){
+  p#home-title {
+    margin, padding: 0;
+  }
+}
+
+.textecadre1 {
+  color:red;
+  position: absolute;
+  background-color: aqua;
+  padding, margin: 50px;
+  margin-top: 750px;
 }
 
 /*Bouton*/
