@@ -235,13 +235,6 @@ li a {
   }
 }
 
-.textecadre1 {
-  color:red;
-  position: absolute;
-  background-color: aqua;
-  padding, margin: 50px;
-  margin-top: 750px;
-}
 
 /*Bouton*/
 .button {
@@ -253,5 +246,9 @@ li a {
   margin-left: 35px;
   margin-top: 370px;
   text-decoration: none;
+}
+
+.produits-index {
+  margin-top: 80px;
 }
 /*aaa*/
