@@ -9,6 +9,14 @@
     <title>Accueil</title>
 </head>
 <body>
+    <style>
+    .underline-animation {
+    color:black;
+    }
+    .underline-animation:after {
+      background-color: black;
+    }
+}</style>
     <!--menu top-->
     <header>
         </head>
@@ -18,49 +26,59 @@
                     <div id="menuToggle">
                     <ul class="menu">
                       <li><a href="#" class="menu-button1" style="border: 2px solid black;" id="sinscrire">S'inscire</a></li>
-                      <li><a href="#" class="menu-button2" style="border: 2px solid black;" id="seconnecter">Se connecter</a></li>
-                      <li><a href="#" class="underline-animation">News</a></li>
-                      <li><a href="#" class="underline-animation">Home</a></li>
+                      <li><a href="#" class="menu-button2" style="border: 2px solid black; color:black;" id="seconnecter">Se connecter</a></li>
+                      <li><a href="#" class="underline-animation" style="color:black;">News</a></li>
+                      <li><a href="#" class="underline-animation" style="color:black;">Home</a></li>
                     </ul>
                     </div>
                 </nav>
             </div>
         </div>
       </header>
-    <main>
+    <main class="main-content">
+        <ul style="text-align:left;">
+          <li><a href="#carte-graphique">Carte graphique</a></li>
+          <li><a href="#processeur">Processeur</a></li>
+          <li><a href="#carte-mere">Carte mère</a></li>
+          <li><a href="#memoire-vive">Mémoire vive</a></li>
+          <li><a href="#ssd">SSD</a></li>
+          <li><a href="#ventirad">Ventirad et AIO</a></li>
+          <li><a href="#disque">Disque dur</a></li>
+          <li><a href="#boitier">Boîtier</a></li>
+        </ul>
         <a>
-            <h2>CARTE GRAPHIQUE</h2>
+            <h2 id="carte-graphique">CARTE GRAPHIQUE</h2>
             <p>Une carte graphique est un périphérique graphique dont le rôle est de produire une image affichable sur un écran.</p>
         </a>
         <a>
-            <h2>PROCESSEUR</h2>
+            <h2 id="processeur">PROCESSEUR</h2>
             <p>Un pocesseur est un compossant qui exécute les instructions machine des programmes informatique.<br>
             Avec la mémoire, c'est notamment l'une des fonctions qui existent depuis les premiers ordinateurs.<br> Un processeur construit en un seul circuit intégré est un microprocesseur.
             </p>
         </a>
         <a>
-            <h2>CARTE MERE</h2>
+            <h2 id="carte-mere">CARTE MERE</h2>
             <p>La carte mère est le circuit imprimé qui supporte la plupart des composants et des connecteurs nécessaires au fonctionnement d'un compatible PC.<br> Elle est essentiellement composée de circuits imprimés et de ports de connexion qui assurent la liaison de tous les composants et périphériques propres à un micro-ordinateur<br> afin qu'ils puissent être reconnus et configurés par le microprocesseur grâce au programme contenu dans le BIOSdevant effectuer la configuration et le démarrage correct de tous les équipements.</p>
         </a>
         <a>
-            <h2>MEMOIRE VIVE</h2>
+            <h2 id="memoire-vive">MEMOIRE VIVE</h2>
             <p>La mémoire vive, parfois abrégée avec l'acronyme RAM est la mémoire informatique dans laquelle peuvent être enregistrées les informations traitées par un appareil informatique. </p>
         </a>
         <a>
-                <h2>SSD</h2>
-                <p>Un SSD  est un materiel informatique permettant le stockage de données sur de la mémoire flash.</p>
+            <h2 id="ssd">SSD</h2>
+            <p>Un SSD  est un materiel informatique permettant le stockage de données sur de la mémoire flash.</p>
         </a>
         <a>
-                    <h2>VENTIRAD ET AIO</h2>
-                    <p>Les méthodes de refroidissement pour ordinateur sont les moyens permettant de réduire la température de certains composants d'ordinateur afin d'éviter leur surchauffe.</p>
+            <h2 id="ventirad">VENTIRAD ET AIO</h2>
+            <p>Les méthodes de refroidissement pour ordinateur sont les moyens permettant de réduire la température de certains composants d'ordinateur afin d'éviter leur surchauffe.</p>
         </a>
         <a>
-                <h2>DISQUE DUR</h2>
-                <p>Un disque dur est une mémoire de masse à disque tournant magnétique utilisée principalement dans les ordinateurs</p>
+            <h2 id="disque">DISQUE DUR</h2>
+            <p>Un disque dur est une mémoire de masse à disque tournant magnétique utilisée principalement dans les ordinateurs</p>
         </a>
         <a>
-                <h2>BOITIER</h2>
-                <p>En informatique, le boîtier de l'unité centrale loge et protège les principaux composants d'un appareil informatique</p>
+            <h2 id="boitier">BOITIER</h2>
+            <p>En informatique, le boîtier de l'unité centrale loge et protège les principaux composants d'un appareil informatique</p>
         </a>
     </main>    
     </body>
