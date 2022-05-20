@@ -254,3 +254,18 @@ li a {
   margin-top: 370px;
   text-decoration: none;
 }
+.table-presentation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.table-element {
+  width: 100px;
+  transition: width 1s ease 0s;
+  margin: 20px;
+}
+
+td.table-element {
+  margin: 500px;
+}
